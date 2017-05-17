@@ -23,10 +23,9 @@
 
     <filter>
         <whitelist>
-            <directory>DependencyInjection</directory>
-            <directory>Entity</directory>
-            <directory>EventListener</directory>
-            <file>TimestampableBundle.php</file>
+            <file>Log.php</file>
+            <file>LogListener.php</file>
+            <file>LoggableBundle.php</file>
         </whitelist>
     </filter>
 </phpunit>

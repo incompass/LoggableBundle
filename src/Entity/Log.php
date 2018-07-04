@@ -25,7 +25,7 @@ use Doctrine\ORM\Mapping\HasLifecycleCallbacks;
  *         @Index(name="log_idx_level_name", columns={"surgery_date_time"})
  *     }
  * )
- * @ORM\HasLifecycleCallbacks
+ * @HasLifecycleCallbacks
  */
 class Log
 {

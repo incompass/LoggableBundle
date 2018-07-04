@@ -39,6 +39,6 @@ class LoggableExtension extends Extension
         $container->register(RequestProcessor::class, RequestProcessor::class)
             ->addArgument(new Reference('request_stack'))
             ->addArgument(new Reference('service_container'))
-            ->addTag('monolog.processor', ['method' => 'processRecord', 'handler' => 'database.log.handler']);
+            ->addTag('monolog.processor', ['method' => 'processRecord', 'handler' => 'db']);
     }
 }

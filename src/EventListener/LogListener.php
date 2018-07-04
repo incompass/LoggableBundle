@@ -1,6 +1,6 @@
 <?php
 
-namespace Incompass\LoggableBundle;
+namespace Incompass\LoggableBundle\EventListener;
 
 use DateTime;
 use Doctrine\Common\EventArgs;
@@ -13,9 +13,10 @@ use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * Class LogListener
  *
- * @package Incompass\LoggableBundle
+ * @package Incompass\LoggableBundle\EventListener
  * @author  Joe Mizzi <joe@casechek.com>
  * @author  Mike Bates <mike@casechek.com>
+ * @author  James Matsumura <james@casechek.com>
  */
 class LogListener implements EventSubscriber
 {

@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Class EntityStub
  *
- * @package Incompass\LoggableBundle\Tests
+ * @package Incompass\LoggableBundle\tests
  * @author  Joe Mizzi <joe@casechek.com>
  * @author  Mike Bates <mike@casechek.com>
  *

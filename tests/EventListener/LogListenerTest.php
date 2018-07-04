@@ -19,7 +19,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 /**
  * Class LogListenerTests
  *
- * @package Incompass\LoggableBundle\Tests
+ * @package Incompass\LoggableBundle\tests
  * @author  Joe Mizzi <joe@casechek.com>
  * @author  Mike Bates <mike@casechek.com>
  */
